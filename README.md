@@ -12,3 +12,12 @@ function mystery(a) {
     else return a[0];
 }
 ```
+
+
+
+If the length of the array a equals 1 then the functionn returns the element in the 0 index of the array. 
+The funcion is then called recursively, it's arguremnt is the array with the element at index 0 being sliced off, and set to equal a variable foo.
+If foo is greater than the element at index 0 of the original array then return foo. 
+Else return the element at index 0 of the original array.
+
+This function finds the largest value in the array and returns it.
