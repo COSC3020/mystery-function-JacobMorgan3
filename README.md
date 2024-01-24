@@ -1,3 +1,4 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/GDPVb20V)
 # Mystery Function
 
 What does the `mystery()` function in the following piece of code do? Add your
@@ -11,3 +12,12 @@ function mystery(a) {
     else return a[0];
 }
 ```
+
+
+
+If the length of the array a equals 1 then the functionn returns the element in the 0 index of the array. 
+The funcion is then called recursively, it's arguremnt is the array with the element at index 0 being sliced off, and set to equal a variable foo.
+If foo is greater than the element at index 0 of the original array then return foo. 
+Else return the element at index 0 of the original array.
+
+This function finds the largest value in the array and returns it.
